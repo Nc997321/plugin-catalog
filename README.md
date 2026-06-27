@@ -19,6 +19,9 @@ format and `download_url` reachability; a maintainer merges.
 
 ```bash
 cd validator
-cargo run -p catalog-validator -- check ../catalog.json
+cargo run -p catalog-validator -- ../catalog.json
 ```
-Add `--no-reachability` to skip the `download_url` HEAD checks (offline).
+Add `--no-reachability` to skip the `download_url` HEAD checks (offline):
+```bash
+cargo run -p catalog-validator -- ../catalog.json --no-reachability
+```

@@ -57,6 +57,6 @@ the catalog entry and a freshly-signed package).
 ## PR flow
 
 1. Edit `catalog.json` (add your entry, or bump `version` + `download_url` for an update).
-2. Open a PR. CI runs `cargo run -p catalog-validator -- check catalog.json`.
+2. Open a PR. CI runs `cargo run -p catalog-validator -- ../catalog.json`.
 3. A maintainer reviews and merges. The catalog is live immediately (the client
    fetches `raw.githubusercontent.com/.../main/catalog.json` on next open).
