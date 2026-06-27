@@ -1,4 +1,16 @@
 {
   "schema_version": 1,
-  "plugins": []
+  "plugins": [
+    {
+      "id": "base64-tool",
+      "name": "Base64 编解码",
+      "description": "Base64 编码与解码",
+      "author": "AllInKit",
+      "version": "0.1.0",
+      "tags": ["encoding", "utility"],
+      "capabilities": [],
+      "download_url": "https://github.com/Nc997321/allinkit-plugins/releases/download/base64-tool-v0.1.0/base64-tool-0.1.0.aikpkg",
+      "signing_pubkey": "21e48cb272c4f7afd9b51833481e89f65dfccbbdbdcbef8aaae07a622b973849"
+    }
+  ]
 }
