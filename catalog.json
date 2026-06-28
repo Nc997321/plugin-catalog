@@ -15,12 +15,12 @@
     {
       "id": "file-sync",
       "name": "文件同步",
-      "description": "把指定目录双向同步到私有服务器，修改即触发，冲突主动提醒",
+      "description": "把本地目录单向备份到 WebDAV（坚果云/NAS/Nextcloud），修改即触发，支持远端文件浏览",
       "author": "AllInKit",
-      "version": "0.1.0",
-      "tags": ["sync", "utility"],
-      "capabilities": ["network", "kv", "fs", "fswatch", "notify", "clipboard"],
-      "download_url": "https://github.com/Nc997321/allinkit-plugins/releases/download/file-sync-v0.1.0/file-sync-0.1.0.aikpkg",
+      "version": "0.2.0",
+      "tags": ["sync", "backup", "webdav", "utility"],
+      "capabilities": ["network", "kv", "fs", "fswatch"],
+      "download_url": "https://github.com/Nc997321/allinkit-plugins/releases/download/file-sync-v0.2.0/file-sync-0.2.0.aikpkg",
       "signing_pubkey": "21e48cb272c4f7afd9b51833481e89f65dfccbbdbdcbef8aaae07a622b973849"
     }
   ]
