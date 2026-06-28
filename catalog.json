@@ -11,6 +11,17 @@
       "capabilities": [],
       "download_url": "https://github.com/Nc997321/allinkit-plugins/releases/download/base64-tool-v0.1.0/base64-tool-0.1.0.aikpkg",
       "signing_pubkey": "21e48cb272c4f7afd9b51833481e89f65dfccbbdbdcbef8aaae07a622b973849"
+    },
+    {
+      "id": "file-sync",
+      "name": "文件同步",
+      "description": "把指定目录双向同步到私有服务器，修改即触发，冲突主动提醒",
+      "author": "AllInKit",
+      "version": "0.1.0",
+      "tags": ["sync", "utility"],
+      "capabilities": ["network", "kv", "fs", "fswatch", "notify", "clipboard"],
+      "download_url": "https://github.com/Nc997321/allinkit-plugins/releases/download/file-sync-v0.1.0/file-sync-0.1.0.aikpkg",
+      "signing_pubkey": "21e48cb272c4f7afd9b51833481e89f65dfccbbdbdcbef8aaae07a622b973849"
     }
   ]
 }
